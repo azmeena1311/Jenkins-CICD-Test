@@ -15,3 +15,12 @@ sudo usermod -aG docker $USER
 newgrp docker
 
 sudo apt install awscli -y
+
+
+
+## AWS configuration
+
+aws configure
+
+
+## Now setup elastic IP on AWS
