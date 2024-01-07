@@ -25,12 +25,15 @@ sudo usermod -aG docker $USER
 
 sudo usermod -aG docker jenkins
 
+
 newgrp docker
 
 sudo apt install awscli -y
 
+sudo usermod -a -G docker jenkins
 
-## AWS configuration
+
+## AWS configuration & restarts jenkins
 
 aws configure
 
